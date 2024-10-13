@@ -1,0 +1,82 @@
+/* General container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+  background: linear-gradient(to bottom, #f0f4f8, #d9e2ec); /* Soft gradient */
+  height: 100vh;
+  justify-content: flex-start; /* Align content to the top */
+}
+
+/* Header styling */
+.header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Darker font color for readability */
+  margin-bottom: 30px;
+  margin-top: 20px; /* Add some space from the top */
+}
+
+/* Style the input fields */
+input {
+  width: 80%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* White background for inputs */
+  color: #333; /* Dark font color for inputs */
+}
+
+/* Default button styling (for 'Decide') */
+.decide-btn {
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff; /* Soft blue background for 'Decide' */
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Gray button styling for 'Try Again' */
+.try-again-btn {
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #6c757d; /* Soft gray background for 'Try Again' */
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+  opacity: 0.9;
+}
+
+/* Style the result message */
+.result-message {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333; /* Dark font color for result message */
+  text-align: center;
+}
+
+/* Bold style for the result only */
+.bold {
+  font-weight: bold;
+  color: #007bff; /* Bold blue color for result text */
+}

@@ -1,0 +1,15 @@
+<view class="container">
+  <!-- Big header at the top -->
+  <view class="header">帮我选</view>
+
+  <input type="text" id="input1" placeholder="Enter first option" bindinput="bindInput1" value="{{input1}}"/>
+  <input type="text" id="input2" placeholder="Enter second option" bindinput="bindInput2" value="{{input2}}"/>
+
+  <!-- Button for deciding -->
+  <button bindtap="decide" class="{{buttonClass}}">{{buttonText}}</button>
+
+  <view class="result-message" wx:if="{{result}}">
+    <text>The best decision is </text>
+    <text class="bold" style="font-size: 26px;">{{result}}</text>!!
+  </view>
+</view>
